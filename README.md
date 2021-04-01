@@ -1,2 +1,0 @@
-# MyJavaRepo
-MyJavaRepo projects
