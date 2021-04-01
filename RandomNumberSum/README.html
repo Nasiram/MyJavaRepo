@@ -1,0 +1,26 @@
+# 
+<html>
+
+<h1>Random User Validation project</h1>
+
+<h3>Step1:  Build the project</h3>
+<ol>Execute batch file App-Build</ol>
+
+<h3>Step2: Run the project</h3>
+<ol>Execute batch file App-Start</ol>
+
+<h3>Step3: Check the APIs using Postman. Open Postman application and follow below scenarios </h3>
+
+<h4> Note: Attached RandomTest.postman_collection </h4>
+<h4>Request Question </h4>
+Http Method : GET <br/>
+URL : <u>localhost:8080/requestQuestion</u> <br/>
+
+<h4>Answer Question</h4>
+Http Method : GET <br/>
+URL : <u>localhost:8080/answerToQuestion?answer=Give your value</u> <br/>
+
+If response is 200 then user is not a robot as it have validation for previously given values, in which gives an calculated value. Otherwise it gives 400 status code, which is invalid entries!
+
+
+</html>

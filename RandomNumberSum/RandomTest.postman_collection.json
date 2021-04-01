@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "333eaa3d-a0f6-4382-bcf1-67edc02f10e5",
+		"name": "RandomTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/answerToQuestion?answer=65",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/answerToQuestion?answer=65",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"answerToQuestion"
+					],
+					"query": [
+						{
+							"key": "answer",
+							"value": "65"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/requestQuestion",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/requestQuestion",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"requestQuestion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
